@@ -1,0 +1,2 @@
+# Normaliza o fim de linha (o Windows usa CRLF, o repositório usa LF)
+* text=auto

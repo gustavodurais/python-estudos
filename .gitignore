@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+*.egg-info/
+build/
+dist/
+
+# Ambientes virtuais
+venv/
+.venv/
+env/
+
+# Segredos e configuração local
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+token.json
+secrets.json
+
+# Editores
+.vscode/
+.idea/
+
+# Sistema operacional
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Logs e temporários
+*.log
+*.tmp
+
+# Capturas de tela de sistemas (podem expor dados internos)
+screenshots/
+capturas/
+
+# Arquivos gerados pelos exercícios
+03-arquivos/dados/saida.txt
+
+# CSVs baixados pela automação (podem conter dados de clientes)
+projetos/automacao-processo/*.csv
